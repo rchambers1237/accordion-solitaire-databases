@@ -1,0 +1,19 @@
+.loadScreen {
+    background-image: url('../assets/accordion_bg_black.jpeg');
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+}
+
+.playIcon {
+    margin-top: 70vh;
+    color: var(--primary-color-dark);
+    font-size: 10vh;
+}
+
+.playIcon:hover {
+    color: var(--primary-color-light);
+}

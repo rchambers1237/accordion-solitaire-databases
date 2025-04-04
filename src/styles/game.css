@@ -1,0 +1,80 @@
+.gameContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    width: 4rem;
+    height: 6rem;
+    margin: .25rem;
+    border: 1px solid white;
+    border-radius: 5px;
+    cursor: grab;
+    background-image: url('../assets/vintage_deck.png');
+    background-size: 993.06px 803.34px;
+    /* background-size: 5517px 4463px; */ /* This is the original size of the image */
+    background-repeat: no-repeat;
+}
+
+.hearts-1 {
+    border: 3px solid limegreen;
+    background-position: 120px 30px;
+}
+
+.hearts-2 {
+    border: 3px solid red;
+    background-position: -5px -5px;
+}
+
+.hearts-3 {
+    background-position: 0 0;
+}
+
+.hearts-4 {
+    background-position: 0 0;
+}
+
+.hearts-5 {
+    background-position: 0 0;
+}
+
+.hearts-6 {
+    background-position: 0 0;
+}
+
+.hearts-7 {
+    background-position: 0 0;
+}
+
+.hearts-8 {
+    background-position: 0 0;
+}
+
+.hearts-9 {
+    background-position: 0 0;
+}
+
+.hearts-10 {
+    background-position: 0 0;
+}
+
+.hearts-11 {
+    background-position: 0 0;
+}
+
+.hearts-12 {
+    background-position: 0 0;
+}
+
+.hearts-13 {
+    background-position: 0 0;
+}
+
+.diamonds-1 {
+    background-position: 0 0;
+}
+
+.diamonds-2 {
+    background-position: 0 0;
+}

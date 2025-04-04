@@ -1,0 +1,31 @@
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  padding: .1rem;
+  color: darkgray;
+  font-size: .6rem;
+}
+
+main {
+  border: 2px red solid;
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  height: calc(100vh - 150px); /* Take full viewport height minus header and footer */
+  /* padding: 1rem; */
+  /* box-sizing: border-box; */
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: .1rem;
+  color: darkgray;
+  font-size: .6rem;
+}
